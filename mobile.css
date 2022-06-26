@@ -60,6 +60,7 @@
     width: 80%;
     height: auto;
     order: 2;
+    color: white;
   }
   .we .inner-we .we2 .we-text {
     padding-top: 20px;
@@ -206,6 +207,7 @@
 
   footer {
     height: 70vh;
+    margin-top: 70px;
   }
   footer .inner-footer .foot-img {
     display: none;
