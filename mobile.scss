@@ -1,0 +1,289 @@
+@media screen and (max-width:999px) {
+    
+
+
+    .home{
+        background: url(./imgs/m1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        padding-bottom: 50px;
+
+        .home-content{
+            width: 90%;
+            
+            h3{
+                font-size: 2em;
+            }
+
+            img{
+                display: none;
+            }
+
+            .home-btn{
+                width: 90%;
+                height: auto;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                button:nth-child(2){
+                    margin-left: 0px;
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .scroll{
+        display: none;
+    }
+
+    .we{
+        height: auto;
+        width: 100%;
+        background: url(./imgs/m2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .inner-we{
+                height: auto;
+                flex-direction: column;
+
+            .main-we:nth-child(1), .main-we:nth-child(3){
+                display: none;
+            }
+
+            .main-we:nth-child(2){
+                width: 100%;
+            }
+
+            .we2{
+                width:100%;
+                flex-direction: column;
+
+                .we-button{
+                    // background-color: green;
+                    width: 80%;
+                    height: auto;
+                    order: 2;
+                }
+                .we-text{
+                    padding-top: 20px;
+                    height: auto;
+                    width: 90%;
+                    align-items: center;
+                    // background-color: green;
+
+                    h3{
+                        font-size: 2em;
+                        text-align: center;
+                        width: 100%;
+                    }
+
+                    p{
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+                img{
+                    display: none;
+                }
+
+                #main-we{
+                    display: none;
+
+                    #main-img{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .social-not{
+        height: auto;
+
+        .inner-social-not{
+            flex-direction: column;
+        }
+
+        img{
+            padding-bottom: 20px;
+        }
+    }
+
+    .utility{
+        padding-top: 20px;
+        background: black;
+        height: auto;
+
+        .inner-uti{
+            width: 100%;
+            flex-direction: column;
+
+            .main-uti:nth-child(1){
+                align-items: center;
+            }
+
+            .main-uti:nth-child(1){
+                order: 2;
+                overflow: hidden;
+                //  background-color: red;
+            }
+
+            .main-uti{
+                width: 100%;
+
+                .in-mainuti{
+                    width: 100%;
+                }
+                img{
+                    width: 200%;
+                    left: 200px;
+                }
+            }
+
+            .main-uti:nth-child(2){
+                width: 90%;
+
+                .in-mainuti{
+                    .h3{
+                        font-size: 3em;
+                    }
+
+                    .uti-txt{
+                        width: 100%;
+                        // background-color: purple;
+                        height: auto;
+
+                        i{
+                            padding: 5px;
+                            border-radius: 20px;
+                        }
+
+                        h3{
+                            font-size: 1.5em;
+                            width: 100%;
+                            padding-bottom: 30px;
+                            color: white;
+                            font-weight: lighter;
+                        }
+                    }
+
+    
+    
+                }
+
+            }
+        }
+    }
+
+    .tokenomics{
+        height: auto;
+        width: 100%;
+        // background: green;
+        overflow: hidden;
+
+        .inner-tokenomics{
+            // background-color: red;
+
+            .h3-div{
+                margin-top: 20px;
+            }
+
+            .btn-div{
+                flex-direction: column;
+                // background-color: blue;
+
+                button{
+                    background: black;
+                    color: #fff;
+                    border-bottom: 2px;
+                    border-bottom: 2px solid #F9FF21;
+                    font-size: 15px;
+                    font-family: 'Clash Display', sans-serif;
+                    font-weight: lighter;
+                    word-spacing: 5px;
+
+                    span{
+                        color: #F9FF21;
+                        word-spacing: 3px;
+                        padding-top: 10px;
+                        font-family: 'Clash Display', sans-serif;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .main-tokenomics{
+        // background: red;
+        height: 190vh;
+        overflow: hidden;
+    
+        .in-main-t{
+            background-color: green;
+        }
+
+        .in-main-t:nth-child(1){
+            background: url(./imgs/tokenm.png);
+            background-repeat: no-repeat;
+            background-size: 90%;
+            width: 100%;
+        }
+
+        .in-main-t:nth-child(2){
+            display: none;
+        }
+    }
+
+    .roadmap{
+        height: auto;
+        // background: red;
+        overflow: hidden;
+
+        .inner-roadmap{
+            .text-road{
+                height: 1%;
+            }
+        }
+
+        .road{
+            height: 200vh;
+            background: url(./imgs/roadm.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+    }
+
+    footer{
+        // background-color: red;
+
+    .inner-footer{
+
+        .foot-img{
+            display: none;
+        }
+
+        .foot-txt{
+            flex-direction: column;
+            
+            .in-foottxt{
+                flex-direction: column;
+
+                .main-foot{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+    }
+}
+

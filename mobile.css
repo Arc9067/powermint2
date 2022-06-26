@@ -1,0 +1,217 @@
+@media screen and (max-width: 999px) {
+  .home {
+    background: url(./imgs/m1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .home .home-content {
+    width: 90%;
+  }
+  .home .home-content h3 {
+    font-size: 2em;
+  }
+  .home .home-content img {
+    display: none;
+  }
+  .home .home-content .home-btn {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .home-content .home-btn button:nth-child(2) {
+    margin-left: 0px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scroll {
+    display: none;
+  }
+
+  .we {
+    height: auto;
+    width: 100%;
+    background: url(./imgs/m2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .we .inner-we {
+    height: auto;
+    flex-direction: column;
+  }
+  .we .inner-we .main-we:nth-child(1), .we .inner-we .main-we:nth-child(3) {
+    display: none;
+  }
+  .we .inner-we .main-we:nth-child(2) {
+    width: 100%;
+  }
+  .we .inner-we .we2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .we .inner-we .we2 .we-button {
+    width: 80%;
+    height: auto;
+    order: 2;
+  }
+  .we .inner-we .we2 .we-text {
+    padding-top: 20px;
+    height: auto;
+    width: 90%;
+    align-items: center;
+  }
+  .we .inner-we .we2 .we-text h3 {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+  }
+  .we .inner-we .we2 .we-text p {
+    width: 100%;
+    text-align: center;
+  }
+  .we .inner-we .we2 img {
+    display: none;
+  }
+  .we .inner-we .we2 #main-we {
+    display: none;
+  }
+  .we .inner-we .we2 #main-we #main-img {
+    display: none;
+  }
+
+  .social-not {
+    height: auto;
+  }
+  .social-not .inner-social-not {
+    flex-direction: column;
+  }
+  .social-not img {
+    padding-bottom: 20px;
+  }
+
+  .utility {
+    padding-top: 20px;
+    background: black;
+    height: auto;
+  }
+  .utility .inner-uti {
+    width: 100%;
+    flex-direction: column;
+  }
+  .utility .inner-uti .main-uti:nth-child(1) {
+    align-items: center;
+  }
+  .utility .inner-uti .main-uti:nth-child(1) {
+    order: 2;
+    overflow: hidden;
+  }
+  .utility .inner-uti .main-uti {
+    width: 100%;
+  }
+  .utility .inner-uti .main-uti .in-mainuti {
+    width: 100%;
+  }
+  .utility .inner-uti .main-uti img {
+    width: 200%;
+    left: 200px;
+  }
+  .utility .inner-uti .main-uti:nth-child(2) {
+    width: 90%;
+  }
+  .utility .inner-uti .main-uti:nth-child(2) .in-mainuti .h3 {
+    font-size: 3em;
+  }
+  .utility .inner-uti .main-uti:nth-child(2) .in-mainuti .uti-txt {
+    width: 100%;
+    height: auto;
+  }
+  .utility .inner-uti .main-uti:nth-child(2) .in-mainuti .uti-txt i {
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .utility .inner-uti .main-uti:nth-child(2) .in-mainuti .uti-txt h3 {
+    font-size: 1.5em;
+    width: 100%;
+    padding-bottom: 30px;
+    color: white;
+    font-weight: lighter;
+  }
+
+  .tokenomics {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  .tokenomics .inner-tokenomics .h3-div {
+    margin-top: 20px;
+  }
+  .tokenomics .inner-tokenomics .btn-div {
+    flex-direction: column;
+  }
+  .tokenomics .inner-tokenomics .btn-div button {
+    background: black;
+    color: #fff;
+    border-bottom: 2px;
+    border-bottom: 2px solid #F9FF21;
+    font-size: 15px;
+    font-family: "Clash Display", sans-serif;
+    font-weight: lighter;
+    word-spacing: 5px;
+  }
+  .tokenomics .inner-tokenomics .btn-div button span {
+    color: #F9FF21;
+    word-spacing: 3px;
+    padding-top: 10px;
+    font-family: "Clash Display", sans-serif;
+  }
+
+  .main-tokenomics {
+    height: 190vh;
+    overflow: hidden;
+  }
+  .main-tokenomics .in-main-t {
+    background-color: green;
+  }
+  .main-tokenomics .in-main-t:nth-child(1) {
+    background: url(./imgs/tokenm.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 100%;
+  }
+  .main-tokenomics .in-main-t:nth-child(2) {
+    display: none;
+  }
+
+  .roadmap {
+    height: auto;
+    overflow: hidden;
+  }
+  .roadmap .inner-roadmap .text-road {
+    height: 1%;
+  }
+  .roadmap .road {
+    height: 200vh;
+    background: url(./imgs/roadm.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  footer .inner-footer .foot-img {
+    display: none;
+  }
+  footer .inner-footer .foot-txt {
+    flex-direction: column;
+  }
+  footer .inner-footer .foot-txt .in-foottxt {
+    flex-direction: column;
+  }
+  footer .inner-footer .foot-txt .in-foottxt .main-foot {
+    width: 100%;
+  }
+}/*# sourceMappingURL=mobile.css.map */
