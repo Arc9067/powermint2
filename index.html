@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./fonts.css">
     <link rel="stylesheet" href="./mobile.css">
     <link rel="stylesheet" href="./responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>PowerMInt OFFicial</title>
 </head>
 <body>
@@ -37,13 +39,18 @@
         <div class="inner-home">
             <div class="home-content"><img src="./imgs/right-home.png" height="100%" alt=""></div>
             <div class="home-content">
-                <h3>POWERMINT</h3>
-                <h3>$pmint</h3>
-                <p>Buy gift cards for anything under the sun.
+                <h3 data-aos="fade-right"    data-aos-easing="linear"
+                data-aos-duration="1500">POWERMINT</h3>
+                <h3 data-aos="fade-right"    data-aos-easing="linear"
+                data-aos-duration="2500">$pmint</h3>
+                <p data-aos="fade-left"    data-aos-easing="linear"
+                data-aos-duration="3000">Buy gift cards for anything under the sun.
                     No account necessary.</p>
 
                 <div class="home-btn">
-                    <button><a href="">shop gift cards</a></button>
+                    <button><a href="" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">shop gift cards</a></button>
                     <button><a href="">BUY PRIVATE SALE</a></button>
                 </div>
             </div>
@@ -64,8 +71,14 @@
                     <button>STAKING 120% APY</button>
                 </div>
                 <div class="we-text">
-                    <h3>We are PowerMint!</h3>
-                    <p>
+                    <h3 data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0"
+                    data-aos-duration="3000">We are PowerMint!</h3>
+                    <p data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="3000">
                         PowerMint is a digital NFT gift card shop. We sell digital gift cards from some of the biggest brands worldwide while processing payments through digital currencies, including its own native token that automatically rewards holders in Bitcoin, while also educating customers and holders through their own free Learn 2 Earn program. PowerMint holders have the ability to stake up to 120% APY of $PMINT tokens.
                     </p>
                 </div>
@@ -90,12 +103,18 @@
             </div>
             <div class="main-uti">
                 <div class="in-mainuti">
-                    <h3 class="h3">$PMINT Utilities</h3>
+                    <h3 data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom"
+                    data-aos-duration="2500" class="h3">$PMINT Utilities</h3>
                     <div class="uti-txt">
-                            <h3><i class="fa-solid fa-right-long fa-beat"></i>Digital NFT Gift Card Shop</h3>
-                            <h3><i class="fa-solid fa-right-long fa-beat" style="--fa-beat-scale: 1.0;"></i>Automatic Bitcoin Rewards</h3>
-                            <h3><i class="fa-solid fa-right-long fa-beat-fade"></i>Staking Powered by UniCrypt</h3>
-                            <h3><i class="fa-solid fa-right-long fa-bounce"></i>Learn 2 Earn</h3>
+                            <h3 data-aos="fade-right"
+                            data-aos-anchor-placement="center-bottom"><i class="fa-solid fa-right-long fa-beat"></i>Digital NFT Gift Card Shop</h3>
+                            <h3 data-aos="fade-left"
+                            data-aos-anchor-placement="center-bottom"><i class="fa-solid fa-right-long fa-beat" style="--fa-beat-scale: 1.0;"></i>Automatic Bitcoin Rewards</h3>
+                            <h3 data-aos="fade-right"
+                            data-aos-anchor-placement="center-bottom"><i class="fa-solid fa-right-long fa-beat-fade"></i>Staking Powered by UniCrypt</h3>
+                            <h3 data-aos="fade-left"
+                            data-aos-anchor-placement="center-bottom"><i class="fa-solid fa-right-long fa-bounce"></i>Learn 2 Earn</h3>
                     </div>
                 </div>
             </div>
@@ -170,7 +189,14 @@
                 <h3>Roadmap</h3>
             </div>
             <div class="road">
-
+                <div class="main-road"></div>
+                <div class="main-road"></div>
+                <div class="main-road"></div>
+                <div class="main-road"></div>
+                <div class="main-road"></div>
+                <div class="main-road"></div>
+                <div class="main-road"></div>
+                <div class="main-road"></div>
             </div>
         </div>
     </section>
@@ -213,5 +239,8 @@
     
     </footer>
     <script src="./index.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

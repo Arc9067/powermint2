@@ -1,4 +1,8 @@
 @media screen and (min-width: 900px) {
+.hamburger{
+  display: block;
+}
+
   .hamburger .line {
     display: block;
     width: 40px;
